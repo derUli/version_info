@@ -1,0 +1,7 @@
+{
+   "id" : "version_info",
+   "version" : "1.0",
+   "description" : "Version Info",
+   "categories" : ["system", "information", "version", "admin"],
+   "compatible_from" : "2017.3.13"
+}
