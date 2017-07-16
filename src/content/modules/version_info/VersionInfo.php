@@ -4,6 +4,6 @@ class VersionInfo extends Controller {
 		return "<small>";
 	}
 	public function adminCopyrightFooterRight() {
-		echo Template::executeModuleTemplate ( "version_info", "version_info" );
+		return Template::executeModuleTemplate ( "version_info", "version_info" ) . "</small>";
 	}
 }
